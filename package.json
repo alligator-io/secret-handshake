@@ -8,9 +8,9 @@
     "url": "git://github.com/dominictarr/secret-handshake.git"
   },
   "dependencies": {
-    "chloride": "^1.0.22",
     "deep-equal": "~1.0.0",
-    "pull-box-stream": "^1.0.8",
+    "sodium": "git://github.com/alligator-io/node-sodium.git",
+    "pull-box-stream": "git://github.com/alligator-io/pull-box-stream.git",
     "pull-cat": "~1.1.5",
     "pull-defer": "~0.2.0",
     "pull-handshake": "^1.0.2",
@@ -27,7 +27,7 @@
   },
   "scripts": {
     "prepublish": "npm ls &&  npm test",
-    "test": "set -e; for t in test/*.js; do node $t; done"
+    "test": "tape test/*.js"
   },
   "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)",
   "license": "MIT"
