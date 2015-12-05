@@ -26,7 +26,6 @@
     "stream-to-pull-stream": "~1.6.1"
   },
   "scripts": {
-    "prepublish": "npm ls &&  npm test",
     "test": "tape test/*.js"
   },
   "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)",
