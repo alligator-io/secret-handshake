@@ -2,6 +2,9 @@
 
 secure-channel based on a a mutually authenticating key agreement handshake, with forward secure identity metadata.
 
+[![Travis](https://img.shields.io/travis/alligator-io/secret-handshake.svg)](https://travis-ci.org/alligator-io/secret-handshake)
+[![AppVeyor](https://img.shields.io/appveyor/ci/alligator-io/secret-handshake.svg)](https://ci.appveyor.com/project/alligator-io/secret-handshake)
+
 For a full explaination of the design, read the
 [Design Paper](http://dominictarr.github.io/secret-handshake-paper/shs.pdf)
 
